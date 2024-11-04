@@ -856,14 +856,14 @@ color: black;
     transition: 0.2s;
     color: white;
 }
-@media (max-width: 1000px){
+@media (max-width: 750px){
     .wrapper{
         overflow-x: hidden;
         overflow-y: auto;
     }
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 750px) {
     .nav {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -879,7 +879,7 @@ color: black;
        margin-bottom: 10px;
     }
   }
-  @media (max-width: 1000px) {
+  @media (max-width: 750px) {
     .main {
         display: grid;
         width: 60vw;
@@ -888,24 +888,24 @@ color: black;
     }
    
   }
-  @media (max-width: 1000px) {
+  @media (max-width: 750px) {
     .skills{
         width: 100%;
         display: grid;
         grid-template-columns: repeat(1,1fr);
     }
   }
-  @media (max-width: 1000px) {
+  @media (max-width: 750px) {
     .project {
       width: 100%;
     }
   }
-  @media (max-width: 1000px) {
+  @media (max-width: 750px) {
     .contact {
       margin-left: 0;
     }
   }
-  @media (max-width: 1000px){
+  @media (max-width: 750px){
     .extraright, .extraleft{
         font-size: 15px;
         display: grid;
@@ -913,6 +913,52 @@ color: black;
         
     }
   }
+ @media (max-width: 750px) {
+    .project {
+      width: 100%;
+    }
+  }
+  @media (max-width: 750px) {
+    .contact {
+      margin-left: 0;
+    }
+  }
+  @media (max-width: 750px){
+    .extraright, .extraleft{
+        font-size: 15px;
+        display: grid;
+       
+        
+    }
+  }
+ @media(max-width:750px){
+    #project2{
+        left: 0px;
+    }
+ }
+ @media(max-width:750px){
+    .skillsleftpara{
+        padding: 30px;
+       
+    }
+    .contactimg{
+        display: none;
+    }
+    .contacthead{
+        font-size: 20px;
+        left: 0px;
+    }
+    #contacting1{
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+        display: flex;
+        justify-content: flex-start;
+        
+    }
+    
+ }
+        
 
 
 
